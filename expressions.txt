@@ -1,0 +1,22 @@
+what is an expression?
+it consists of symbols, variables and constants.
+
+TYPES OF EXPRESSIONS
+
+1. Infix Expression   <operand><operator><operand>
+These expressions are understand by human but not by computer. 
+Precedence 
+i.)   brackets (),{},[]
+ii.)  ^ (power)  R->L
+iii.) *,/        L->R
+iv.)  +,-        L->R
+
+2. Prefix Expression (Polish Notation)   <operator><operand><operand>
+This type of expressions are understand by computer.
+eg. 4*2+3 -> +*423
+    5-6/7 -> -5/67
+
+3. Postfix Expressions (Reverse polish Notation) <operand><operand><operator>
+This type of expressions are understand by computer.
+eg. 4*2+3 -> 42*3+
+    5-6/7 -> 567/-

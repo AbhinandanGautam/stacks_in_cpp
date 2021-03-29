@@ -1,0 +1,17 @@
+stacks
+store a list of items in which a element can be added or removed from the list only at one end. 
+based on LIFO-Last In First Out mechanism.
+
+we implement stacks using arrays
+-> make an array of paticular size.
+-> pointer top points toward -1 index i.e. our stack is empty. 
+-> then top++ take place and value get push into stack. 
+-> if top==last index means our array get completely filled, then we make another array of bigger size. 
+
+
+operations on stack
+1. push(x) : it pushes the x to the top of stack. 
+2. pop() : remove the top most element from the stack.
+3. top() : return the topmost value of stack. 
+4. empty() : to check rather stack is empty or not. 
+all the operations are performed in constant time i.e. time complexity is O(1)
